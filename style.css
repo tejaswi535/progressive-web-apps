@@ -1,0 +1,150 @@
+table{
+	width:100%;
+	border-collapse: collapse;
+	box-shadow: 3px 3px 3px #ddd;
+}
+
+tr:nth-child(even){
+	background: #ddd;
+}
+
+td,
+th{
+	padding: 1%;
+}
+.skDiv{
+	width: 100%;
+	border-left: 3px solid #0E4DBA;
+	padding:1%; 
+	margin:1%; 
+}
+span{
+	background: #0E4DBA;
+	color:#fff;
+	border:1px solid #082D6E;
+	box-shadow:3px 3px 3px #ddd;
+	margin:1%;
+	padding:1%;
+	border-radius:5px; 
+}
+.parent{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.child1{
+	width: 30%;
+	border:1px solid #ddd;
+	padding:1%;
+	margin:1%;
+	background:#58D68D;
+}
+}
+.child2{
+	width: 70%;
+	border: 1px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	background: #DF01D7;
+}
+}
+h2{
+	text-align: center;
+	color: #2E64FE;
+	word-wrap: break-word;
+
+}
+img{
+	width: 120px;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	background: #2471A3;
+}
+a{
+	text-decoration: none;
+	font-size: 20px;
+	word-wrap: break-word;
+}
+p{
+	font-size: 20px;
+	color: #000000;
+}
+/*small screens*/
+@media only screen and (min-width:320px) and (max-width:480px){
+.parent{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.child1{
+	width: 100%;
+	border:1px solid #ddd;
+	padding:1%;
+	margin:1%;
+	background:#58D68D;
+}
+.child2{
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	background: #DF01D7;
+}
+body{
+	background: #9B59B6;	
+}
+}
+/*medium screens*/
+@media only screen and (min-width: 481px) and (max-width: 768px){
+.parent{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.child1{
+	width: 40%;
+	border:1px solid #ddd;
+	padding:1%;
+	margin:1%;
+	background:#58D68D;
+}
+.child2{
+	width: 60%;
+	border: 1px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	background: #DF01D7;
+}
+body{
+	background: #9B59B6;	
+}
+
+
+/*large screens*/
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+	.parent{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.child1{
+	width: 50%;
+	border:1px solid #ddd;
+	padding:1%;
+	margin:1%;
+	background:#58D68D;
+}
+.child2{
+	width: 50%;
+	border: 1px solid #ddd;
+	padding: 1%;
+	margin: 1%;
+	background: #E394B1;
+}
+body{
+	background: #9B59B6;	
+}
+
+}

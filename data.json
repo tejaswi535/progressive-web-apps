@@ -1,0 +1,50 @@
+{
+	"basics":{
+		"name":"Tejaswi",
+		"role":"mean-stack",
+		"mobile":"+91 9857464738",
+		"email":"tejaswimallula1234@gmail.com"
+	},
+	"career":{
+		"info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
+	},
+	"education":[
+		{
+			"degree":"B-Tech(computer science & engineering)",
+			"institute":"vignan's nirula",
+			"data":["2016-20","80%"]
+
+		},
+		{
+			"degree":"intermediate(mpc)",
+			"institute":"Aditya jr college",
+			"data":["2014-16","94%"]
+
+		},
+		{
+			"degree":"ssc",
+			"institute":"vignan E.M school",
+			"data":["2014","92%"]
+
+		}
+	],
+	"skills":[
+		{
+			"title":"programming languages",
+			"content":["python","c","java","R","c++"]
+		},
+		{
+			"title":"Data bases",
+			"content":["sql","oracle","mysql"]
+		},
+		{
+			"title":"web technologies",
+			"content":["HTML","XML","java script","css"]
+		},
+		{
+			"title":"operating systems",
+			"content":["windows","unix","linux"]
+		}
+
+	]
+}
